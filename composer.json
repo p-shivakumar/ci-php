@@ -1,0 +1,7 @@
+{
+    "name": "CI-PHP",
+    "license": "ISC", 
+    "require": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
