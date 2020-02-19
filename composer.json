@@ -1,7 +1,12 @@
 {
     "name": "CI-PHP",
-    "license": "ISC", 
+    "license": "ISC",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
     "require": {
-        "phpunit/phpunit": "^6.2"
+        "phpunit/phpunit": "^9"
     }
 }
